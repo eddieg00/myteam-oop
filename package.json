@@ -1,0 +1,28 @@
+{
+  "name": "myteam-oop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eddieg00/myteam-oop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eddieg00/myteam-oop/issues"
+  },
+  "homepage": "https://github.com/eddieg00/myteam-oop#readme",
+  "dependencies": {
+    "inquirer": "^9.2.0"
+  }
+}
