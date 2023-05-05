@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "directories": {
     "lib": "lib"
   },
-  "type": "module",
+  
   "scripts": {
     "test": "jest",
     "start": "node index.js"
@@ -24,5 +25,8 @@
   "homepage": "https://github.com/eddieg00/myteam-oop#readme",
   "dependencies": {
     "inquirer": "^9.2.0"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0"
   }
 }

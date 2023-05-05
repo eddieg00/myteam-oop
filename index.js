@@ -1,6 +1,5 @@
 import inquirer from "inquirer";
-import { writeFile } from "fs";
-import { resolve, join } from "path";
+import writeFile from "fs";
 import Manager from "./lib/Manager.js";
 import Engineer from "./lib/Engineer.js";
 import Intern from "./lib/Intern.js";
@@ -45,7 +44,7 @@ function userStart() {
 }
 //for engineer it needs to ask for name id email and github, then bck  to menu
 function engineerInput() {
-   inquirer.prompt([
+   prompt([
     {
       type: "input",
       name: "name",
@@ -80,7 +79,7 @@ function engineerInput() {
 }
 //for intern it needs to ask name id email and school then bck to menu
 function internInput() {
-   inquirer.prompt([
+   prompt([
     {
       type: "input",
       name: "name",
@@ -115,7 +114,7 @@ function internInput() {
 }
 //then we have a menu option to add engineer intern or finish
 function menuOptions() {
-  inquirer.prompt([
+  prompt([
     {
       type: "list",
       name: "menu",

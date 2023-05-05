@@ -1,4 +1,4 @@
-const Employee = require('../lib/Manager');
+import Employee from '../lib/Manager.js';
 
 describe('Employee', () => {
     it('should return the role', () => {

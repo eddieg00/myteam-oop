@@ -1,4 +1,4 @@
-const Employee = require('../lib/Engineer');
+import Employee from '../lib/Engineer.js';
 
 describe('Employee', () => {
     it('should return the engineers github', () => {
