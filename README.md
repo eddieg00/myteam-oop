@@ -15,8 +15,8 @@ This is an application for an employer to build teams of employees, engineers, a
 
 please refer to the license in the repo.
 
-## website link
-https://eddieg00.github.io/expressnotes/
+## Video link
+https://youtu.be/MU4xjFQhwIQ
 
 
-![ScreenShot](https://github.com/eddieg00/expressnotes/blob/main/screenshot/Screenshot%20(22).png)
+![ScreenShot](https://github.com/eddieg00/myteam-oop/blob/main/assets/sceeenshots/Screenshot%20(28).png)
